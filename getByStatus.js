@@ -22,6 +22,7 @@ function GetByStatus() {
         <option value="running">Running</option>
         <option value="paused">Paused</option>
         <option value="terminated">Terminated</option>
+        <option value="paused_but_running">Paused but running</option>
       </select>
 
       <button onClick={fetchMachines} style={{ marginLeft: '10px' }}>
